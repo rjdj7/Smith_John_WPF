@@ -1,10 +1,16 @@
-// Fahrenheit to Centigrade Exercise 
+// Concatenating Strings (pg. 34)
 
-// Equation is C = 5/9 (F - 32).
-var degFahren = prompt ("Enter the degrees in Fahrenheit", 50);
-var degCent;
 
-degCent = 5/9 * (degFahren - 32);
+// Declaring 3 different variables. myName is assigned to whatever the user puts in the prompt box
 
-alert (degCent);
+var greetingString = "Hello";
+var myName = prompt ("Please enter your name", "");
+var concatString;
 
+// 
+
+document.write(greetingString + " " + myName + "<br>");
+
+concatString = greetingString + " " + myName;
+
+document.write(concatString);
