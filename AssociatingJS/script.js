@@ -1,11 +1,10 @@
-var firstNumber = 15;
-var secondNumber = 10;
-var answer;
-answer = 15 / 10;
-alert (answer);
+// Fahrenheit to Centigrade Exercise 
 
-alert (15 / 10);
+// Equation is C = 5/9 (F - 32).
+var degFahren = prompt ("Enter the degrees in Fahrenheit", 50);
+var degCent;
 
-answer = firstNumber / secondNumber;
-alert (answer);
+degCent = 5/9 * (degFahren - 32);
+
+alert (degCent);
 
