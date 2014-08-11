@@ -1,16 +1,14 @@
-// Concatenating Strings (pg. 34)
+// Converting Strings to Numbers
 
+var myString = "56.02 degrees centigrade";
+var myInt;
+var myFloat;
 
-// Declaring 3 different variables. myName is assigned to whatever the user puts in the prompt box
+document.write("\"" + myString + "\" is " + parseInt(myString) + " as an integer" + "<BR>");
 
-var greetingString = "Hello";
-var myName = prompt ("Please enter your name", "");
-var concatString;
+myInt = parseInt(myString);
+document.write("\"" + myString + "\" when converted to an integer equals " + myInt + "BR");
 
-// 
+myFloat = parseFloat(myString);
+document.write("\"" + myString + "\" when converted to a floating point number equals " + myFloat);
 
-document.write(greetingString + " " + myName + "<br>");
-
-concatString = greetingString + " " + myName;
-
-document.write(concatString);
