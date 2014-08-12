@@ -47,10 +47,10 @@
 	var leftoverPizza = totalSlices % partySize;
 
 	//Declaring the result:
-	var result3 = new String("Sparky got " + leftoverPizza + " slices of pizza.")
+	var result3 = new String("Sparky got " + leftoverPizza + " slices of pizza.");
 
 	// Print the result in the console:
-	console.log(result3)
+	console.log(result3);
 
 
 // Problem 4: Average Shopping Bill
@@ -62,6 +62,14 @@
 	// Formula for finding out the total amount spent in the 5 weeks: 
 	var totalSpending = weeklySpending[0] + weeklySpending[1] + weeklySpending[2] + weeklySpending[3] + weeklySpending[4];
 
+	// Formula for finding out the average amount spent a week:
+	var spendingAverage = totalSpending / 5;
+
+	// Declaring the result:
+	var result4 = new String("You have spent a total of " + totalSpending + " on groceries over 5 weeks. That is an average of " + spendingAverage + " per week.");
+
+	// Print the result in the console:
+	console.log(result4);
 
 
 
