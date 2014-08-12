@@ -4,12 +4,18 @@
 
 // Problem 1: Dog Years
 
-// Declare my variables. regYear is Sparky's age in regular years. dogYear is Sparky's age in dog years. 
-var regYear;
-var dogYear;
+	// Declare my variables. regYear is Sparky's age in regular years. dogYear is Sparky's age in dog years. 
+	var regYear;
+	var dogYear;
 
-// The forumla for converting regular (human) years to dog years:
-dogYear = regYear * 7 
+	// Assigning Sparky a "regular year" age of 1
+	regYear = 1;
 
-// Pring the result in the console:
-console.log(dogYear)
+	// The forumla for converting regular (human) years to dog years:
+	dogYear = regYear * 7;
+
+	// Pring the result in the console:
+	console.log("Sparky is " + regYear + " human year old which is " + dogYear " in dog years.");
+
+
+// Problem 2: 
