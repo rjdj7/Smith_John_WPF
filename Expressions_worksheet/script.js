@@ -14,11 +14,21 @@
 	// The forumla for converting regular (human) years to dog years:
 	dogYear = regYear * 7;
 
-	//
-	var resultString = "Sparky is " + regYear + " human year old which is " + dogYear " in dog years.";
+	// Declaring the string variable result:
+	var result = new String("Sparky is " + regYear + " human year old which is " + dogYear " in dog years.");
 
 	// Pring the result in the console:
-	console.log(resultString);
+	console.log(result);
 
 
-// Problem 2: 
+// Problem 2: Slice of Pie pt 1
+
+	// Declaring my variables and assigning values to them. 2 pizzas ordered, with 8 slices in each, for 10 students. 
+	var pizzaSlice = 8;
+	var partySize = 10;
+	var pizzaOrdered = 2;
+
+	
+
+
+
