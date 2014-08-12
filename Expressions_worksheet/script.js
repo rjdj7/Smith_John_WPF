@@ -53,6 +53,15 @@
 	console.log(result3)
 
 
+// Problem 4: Average Shopping Bill
+
+	// Declaring variable and creating array with input for the 5 weeks:
+	var weeklySpending;
+	weeklySpending = new Array(135, 30, 25, 77, 50);
+
+	// Formula for finding out the total amount spent in the 5 weeks: 
+	var totalSpending = weeklySpending[0] + weeklySpending[1] + weeklySpending[2] + weeklySpending[3] + weeklySpending[4];
+
 
 
 
