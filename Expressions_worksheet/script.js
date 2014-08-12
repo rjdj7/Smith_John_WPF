@@ -14,8 +14,11 @@
 	// The forumla for converting regular (human) years to dog years:
 	dogYear = regYear * 7;
 
+	//
+	var resultString = "Sparky is " + regYear + " human year old which is " + dogYear " in dog years.";
+
 	// Pring the result in the console:
-	console.log("Sparky is " + regYear + " human year old which is " + dogYear " in dog years.");
+	console.log(resultString);
 
 
 // Problem 2: 
