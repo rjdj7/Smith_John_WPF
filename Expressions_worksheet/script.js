@@ -72,5 +72,16 @@
 	console.log(result4);
 
 
+// Problem 5: Discounts
+
+	// Declaring my variables and assigning values to the discount and sales tax:
+	var purchasedItem;
+	var originalPrice;
+	var percentOff = .10;
+	var salesTax = .635;
+	
+	//
+	
+
 
 
