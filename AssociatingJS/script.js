@@ -1,14 +1,14 @@
-// Converting Strings to Numbers
+// An Array pg. 43
 
-var myString = "56.02 degrees centigrade";
-var myInt;
-var myFloat;
+var myArray = new Array();
+myArray[0] = "Bob";
+myArray[1] = "Pete";
+myArray[2] = "Paul";
 
-document.write("\"" + myString + "\" is " + parseInt(myString) + " as an integer" + "<BR>");
+document.write("myArray[0] = " + myArray[0] + "<BR>");
+document.write("myArray[2] = " + myArray[2] + "<BR>");
+document.write("myArray[1] = " + myArray[1] + "<BR>");
 
-myInt = parseInt(myString);
-document.write("\"" + myString + "\" when converted to an integer equals " + myInt + "BR");
-
-myFloat = parseFloat(myString);
-document.write("\"" + myString + "\" when converted to a floating point number equals " + myFloat);
+myArray[1] = "Mike";
+document.write("myArray[1] changed to " + myArray[1]);
 
