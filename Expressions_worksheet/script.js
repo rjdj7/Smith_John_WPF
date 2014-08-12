@@ -23,12 +23,26 @@
 
 // Problem 2: Slice of Pie pt 1
 
-	// Declaring my variables and assigning values to them. 2 pizzas ordered, with 8 slices in each, for 10 students. 
+	// Declaring my variables and assigning values to them. 2 pizzas ordered, with 8 slices in each, for 8 students. 
 	var pizzaSlice = 8;
-	var partySize = 10;
+	var partySize = 8;
 	var pizzaOrdered = 2;
 
-	
+	// Formula for finding out total amount of pizza slices. This would make 16 slices total.
+	var totalSlices = pizzaOrdered * pizzaSlice;
+
+	// Formala for finding out total amout of slice for each student. This would make it 2 slices for each student. 
+	var slicesEach = totalSlices / partySize;
+
+	// Declarign the result:
+	var result2 = new String("Each person ate " + slicesEach + " slices of pizza at the party.");
+
+	// Print the result in the console:
+	console.log(result2);
+
+
+
+
 
 
 
