@@ -74,14 +74,32 @@
 
 // Problem 5: Discounts
 
-	// Declaring my variables and assigning values to the discount and sales tax:
-	var purchasedItem;
-	var originalPrice;
+	// Declaring my variables and assigning values to the purchased item, original price, discount, and sales tax:
+	var purchasedItem = new String("cologne")
+	var originalPrice = 17.00;
 	var percentOff = .10;
 	var salesTax = .635;
 	
-	//
-	
+	// Forumula for finding out the amount from the discount that will be taken off of the original price:
+	var itemDiscount = originalPrice * percentOff;
+
+	// Formula for finding out what the new, discounted price of the item will be (without tax):
+	var discountedPrice = originalPrice - itemDiscount;
+
+	// Forumla for finding out the sales tax on that discounted item:
+	var taxAmount = discountedPrice * salesTax;
+
+	// Formula for the new discounted price of the item (with tax)
+	var discountedPriceWithTax = disountedPrice + taxAmount;
+
+	// Declaring the result string:
+	var result5 = new String("Your " + purchasedItem + " was originally " + originalPrice + ", but after a " + percentOff + "% dicount, it is now " + discountedPrice + " without tax, and " + discountedPriceWithTax + " with tax.");
+
+	// Pring the result in the console:
+	console.log(result5);
+
+
+
 
 
 
