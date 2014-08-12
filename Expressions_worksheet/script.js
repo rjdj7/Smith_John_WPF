@@ -34,12 +34,23 @@
 	// Formala for finding out total amout of slice for each student. This would make it 2 slices for each student. 
 	var slicesEach = totalSlices / partySize;
 
-	// Declarign the result:
+	// Declaring the result:
 	var result2 = new String("Each person ate " + slicesEach + " slices of pizza at the party.");
 
 	// Print the result in the console:
 	console.log(result2);
 
+
+// Problem 3: Slice of Pie pt 2
+
+	// Formula for finding out how much leftover pizza there is after dividing it up evenly among the party:
+	var leftoverPizza = totalSlices % partySize;
+
+	//Declaring the result:
+	var result3 = new String("Sparky got " + leftoverPizza + " slices of pizza.")
+
+	// Print the result in the console:
+	console.log(result3)
 
 
 
