@@ -7,7 +7,7 @@ var bookPages = prompt("Please enter the amount of pages in your book:");
 var days = prompt("Now enter the amount of days you wish to finish it in:");
 var hoursInDay = 24;
 
-// Formula for the amount of pages per day, which is the amount of pages in the book divided into 30 days. 
+// Formula for the amount of pages per day, which is the amount of pages in the book divided by the amount of days you'd take to finish it. 
 var pagesPerDay = bookPages / days;
 
 // Forumla for amount of pages per hour, which is the amount of pages in a day divided by the hours in a day. 
