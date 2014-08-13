@@ -18,4 +18,4 @@ var truePages = totalPages - soFar;
 var pagesPerHour = truePages / hoursAvail; 
 
 // Alert to notify the user how many pages they will have to code per hour in order to finish their site:
-alert("You will have to code " + pagesPerHour + " pages per hour in order to finish your website.");
+alert("You will have to code " + pagesPerHour + " pages per hour in order to finish your website within your available timeframe.");
