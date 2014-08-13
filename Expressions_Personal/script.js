@@ -9,4 +9,7 @@ var bookPages = 758
 var days = 30
 var hoursInDay = 24
 
+// Formula for the amount of pages per day.
+var pagesPerDay = bookPages / days
+
 //
