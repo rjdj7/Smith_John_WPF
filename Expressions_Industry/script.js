@@ -14,3 +14,7 @@ var hoursAvail = prompt("How many hours do you have available to you?");
 // Formula for how many pages the person has to work with after subtracting the ones they've already done: 
 var truePages = totalPages - soFar;
 
+//
+var pagesPerHour = truePages / hoursAvail; 
+
+//
