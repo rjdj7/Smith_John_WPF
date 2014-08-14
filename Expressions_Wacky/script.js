@@ -12,4 +12,7 @@ var humansKilled = prompt("The undead aren't the only threat out there...How man
 var totalKilled = zombiesKilled + humansKilled;
 alert("Wow. So you've killed a total of " + totalKilled);
 
-// 
+// Adding variable for the number of humans to be reanimated. 
+var humansReanimated = humansKilled / 2; 
+
+//
