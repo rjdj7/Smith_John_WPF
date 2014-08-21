@@ -1,9 +1,26 @@
-//Conditional Logic - Ternary Operators
+//GoToTraining Week 3
 
-var age = 11;
-var book;
+//setup an array
 
-//If the child is under 10, they get Green Eggs and Ham, otherwise, they get The Time Machine
-book = (age < 10) ? "Green Eggs and Ham" : "The Time Machine"; // Colon means otherwise
-console.log(book);
+//call the array
 
+//change an item in the array
+
+//call one item from the array using the index
+
+//use dot sytax (period) to find the length of the array
+
+//create a var to store the number of pears
+
+//use if statements to check items in the array
+
+	//check to see if item 1 is a pear
+	//If it is a pear, add to numPears
+
+//ask the name of the fruit owner
+
+//validate the prompt
+
+	//if name is blank, then re-prompt the user for their name
+
+//how many pears are in the bowl?
