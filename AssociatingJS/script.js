@@ -1,61 +1,24 @@
-//GoToTraining Week 3
+//Ch. 3 pg. 55 The if Statement Exercise
 
-//setup an array
-var fruit = ["peach", "pear", "apple", "banana"];
+//Declaring the degrees fahrenheit and degrees centigrade variables.
+//A prompt will appear for the variable degFahren. The user must enter a number. The default value is 32. 
+//"Number() is used to parse the users input, which is techinically a string."
+var degFahren = Number(prompt("Enter the degrees Fahrenheit", 32));
+var degCent;
 
-//call the array
-console.log(fruit);
+//Fahrenheit to Centigrade converstion formula:
+degCent = 5/9 * (degFahren - 32);
 
-//change an item in the array
-fruit[0] = "pear";
+//Write the result onto the page:
+document.write(degFahren + "\xB0 Fahrenheit is " + degCent + "\xB0 centigrade<br/>");
 
-//call one item from the array using the index
-console.log(fruit[2]);
+//If the value of degCent is less than zero then...
+if (degCent < 0) {
+	document.write("That's below the freezing point of water.");
 
-//use dot sytax (period) to find the length of the array
-console.log(fruit.length);
-
-//create a var to store the number of pears
-var numPears = 0;
-
-//use if statements to check items in the array
-if(fruit[0] === "pear"){
-	numPears ++;
-}else{ //if not equal, then...
-	console.log("Fruit is not a pear!");
 }
 
-	//check to see if item 1 is a pear
-	//If it is a pear, add to numPears
-
-if(fruit[1] === "pear"){
-	numPears ++;
-}else{ //if not equal, then...
-	console.log("Fruit is not a pear!");
+//If the value of degCent is equal to 100 then...
+if (degCent == 100){
+	document.write("That's the boiling point of water.");
 }
-
-if(fruit[2] === "pear"){
-	numPears ++;
-}else{ //if not equal, then...
-	console.log("Fruit is not a pear!");
-}
-
-if(fruit[3] === "pear"){
-	numPears ++;
-}else{ //if not equal, then...
-	console.log("Fruit is not a pear!");
-}
-
-console.log(numPears);
-
-//ask the name of the fruit owner
-var name = prompt("What is your name?");
-
-//validate the prompt
-if(name === ""){
-		//if name is blank, then re-prompt the user for their name
-	name = prompt("Please enter you name!");
-}
-
-//how many pears are in the bowl?
-console.log("Hello " + name + ", you have " + numPears + " pears in your bowl.");
