@@ -17,7 +17,7 @@ var correctEmail = "rjdj7@yahoo.com";
 
 //If the first and last names are incorrect: invalid name. If email is: invalid email. 
 //If the age is under 18: must be 18 or over. Otherwise: Thank you
-if(firstName != correctFName && lastName != correctLName){
+if(firstName != correctFName || lastName != correctLName){
 	console.log("Invalid name.");
  }else if(email != correctEmail){
  	console.log("Invalid email.");
