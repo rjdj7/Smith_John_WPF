@@ -2,24 +2,24 @@
 // 08/21/14
 // Conditionals Worksheet
 
-//Check The Login
+//Multiple Conditions
 
-//Setting up givens. Prompts for the users input, as well as the correct responses.
-var username = prompt("Enter your Username:");
-var password = prompt("Enter your Password:");
-var correctUser = "jcsmith";
-var correctPass = "fullsail";
+//Declared givens. Original ticket price, customers age, the discount, the movies time:
+var originalTicketPrice = 12;
+var customerAge = 54;
+var moneyOff = 7;
+var movieTime = 4;
 
-//If both the username and password are correct: 
-if(username === correctUser && password === correctPass){
-	console.log("Welcome, " + username + "!");
-//If username is incorrect:
-}else if(username != correctUser){
-	console.log("User not found. Try again.");
-//If password is incorrect:
-}else if(password != correctPass){
-	console.log("Password does not match our records.");
-//If user doesn't put anything:
+//Forumula for the dicounted price is the orginal ticket price minus the money taken off:
+var discountedPrice = originalTicketPrice - moneyOff;
+
+//If the customers is is greater than or equal to 55 OR is less than or equal to 10, they get the discout.
+if(customerAge >= 55 || customerAge <= 10){
+	console.log("The ticket price is $" + discountedPrice + ".");
+}else if(movieTime >= 3 && movieTime <= 5){
+	console.log("The ticket price is $" + discountedPrice + ".");
 }else{
-	console.log("Input not detected. Try again.");
+	console.log("The ticket price is $" + originalTicketPrice + ".");
 }
+
+//^ Also applies if the movie time is between 3 and 5. If the movie time and age don't line up, then they have to pay the original price.
