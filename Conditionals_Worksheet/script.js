@@ -19,4 +19,7 @@ if(username === correctUser && password === correctPass){
 //If password is incorrect:
 }else if(password != correctPass){
 	console.log("Password does not match our records.");
+//If user doesn't put anything:
+}else{
+	console.log("Input not detected. Try again.");
 }
