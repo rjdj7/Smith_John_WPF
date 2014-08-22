@@ -11,6 +11,12 @@ var correctUser = "jcsmith";
 var correctPass = "fullsail";
 
 //If both the username and password are correct: 
-if(username = correctUser && password = correctPass){
+if(username === correctUser && password === correctPass){
 	console.log("Welcome, " + username + "!");
+//If username is incorrect:
+}else if(username != correctUser){
+	console.log("User not found. Try again.");
+//If password is incorrect:
+}else if(password != correctPass){
+	console.log("Password does not match our records.");
 }
