@@ -10,4 +10,7 @@ var password = prompt("Enter your Password:");
 var correctUser = "jcsmith";
 var correctPass = "fullsail";
 
-//
+//If both the username and password are correct: 
+if(username = correctUser && password = correctPass){
+	console.log("Welcome, " + username + "!");
+}
