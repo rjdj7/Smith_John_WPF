@@ -24,14 +24,14 @@ if(firstName != correctFName && lastName != correctLName){
  }else if(age < 18){
  	console.log("Sorry, must be 18 or older to subscribe to our newsletter.");
  }else{
- 	console.log("Thank you. You have successfully subscribed to our newsletter.")
+ 	console.log("Thank you. You have successfully subscribed to our newsletter.");
  }
 
  //Validation:
-if(firstName = "" || lastName = ""){
+if(firstName === "" || lastName === ""){
 	console.log("Please fill out both your first and last name.");
-}else if(email = ""){
+}else if(email === ""){
 	console.log("Please fill out your email.");
-}else if(age = ""){
+}else if(age === ""){
 	console.log("Please fill out your age.");
 }
