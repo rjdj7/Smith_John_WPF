@@ -1,17 +1,14 @@
-//Functions - Variable Scope
+//Functions - Parameter and Arguments
 
 var width = 5;
 
-function calcArea(){
-	var width = 20;
-	var height = 30;
-	var area = width * height;
+//The arguments. What's being stored in our parameters:
+calcArea(30, 20); 
+
+//w and h are our parameters.
+function calcArea(w, h){ //as if we were writing w = 30, h = 20
+	var area = w * h;
 	console.log(area);
 }
 
 calcArea();
-console.log(width);
-
-// 5 is printed because width = 5 is being preferred over width = 20, 
-// because width = 20 is scoped to calcArea, while width = 5 is scoped to the
-// entire document.
