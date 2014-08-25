@@ -1,28 +1,26 @@
-//Ch. 3 pg. 61: Multiple Conditions 
+//Ch. 3: Fahrenheit to Centigrade Function (pg.82) 
 
-//Prompting the user to enter their age. Default value is 30:
-var myAge = Number(prompt("Enter your age", 30));
+//Declaring the function for the fahrenheit to centigrade converter:
+function convertToCentigrade(degFahren){
+//executing this code:
+	var degCent;
+	degCent = 5/9 * (degFahren - 32);
 
-//If the age is greater than or equal to zero AND less than or equal to 10, then...
-if (myAge >= 0 && myAge <=10){
+	return degCent;
+}
+//declaring variables for fahrenheit and centigrade:
+var degFahren = new Array(212, 32, -459.15);
+var degCent = new Array();
+var loopCounter;
 
-	document.write("My age is between 0 and 10 <br/>");
+for (loopCounter = 0; loopCounter <= 2; loopCounter++){
+
+	degCent[loopCounter] = convertToCentigrade(degFahren[loopCounter]);
+
 }
 
-//The NOT operator reverses this otherwise false statement, making it true. (Because 30 is out of the age range.)
-if (!(myAge >= 0 && myAge <= 10)){
+for (loopCounter = 2; loopCounter >= 0; loopCounter--){
 
-	document.write("My age is not between 0 and 10 </br>");
-}
-
-//If the age is greater than or equal to 80 OR the age is less than or equal to 10, then...
-if (myAge >= 80 || myAge is <= 10){
-
-	document.write("My age is 80 or above OR 10 or below <br/>");
-}
-
-//If the age is greater than or equal to 30 and less than or equal to 39 OR if the age is greater than or equal to 80 and less than or equal to 89, then...
-if (myAge >= 30 && myAge <= 39) || (myAge >= 80 && myAge <= 89){
-
-	document.write("myAge is between 30 and 39 or myAge is between 80 and 89");
+	document.write("Value " + loopCounter + " was " + degCent[loopCounter] + " degrees Fahrenheit");
+	document.write(" which is " + degCent[loopCounter] + " degrees centigrade<br/>");
 }
