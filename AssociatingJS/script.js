@@ -1,14 +1,10 @@
 //Functions - Parameter and Arguments
 
-var width = 5;
-
-//The arguments. What's being stored in our parameters:
-calcArea(30, 20); 
-
-//w and h are our parameters.
-function calcArea(w, h){ //as if we were writing w = 30, h = 20
-	var area = w * h;
-	console.log(area);
+function dogYears(age){//parameters
+	var dogYears = age * 7;
+	console.log("Sparky is " + dogYears + "years old.");
 }
 
-calcArea();
+//Arguments
+dogYears(4); //Making the value of age 4 making the anser 28
+dogYears(5); //Making the value of age 5 making the answer 35
