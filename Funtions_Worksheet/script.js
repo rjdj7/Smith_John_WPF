@@ -1,20 +1,11 @@
 // John Smith
 // 08/25/14
-// Assignment: Functions Worksheet - Circumference
+// Assignment: Functions Worksheet - Stung!
 
-//C = 2 * 3.14 * r
-
-//The arguments. What's being stored in the parameters. 
-//The forumula for the circumference of a circle
-circumference (2, 3.14, 90);
-
-//Declaring the function and added the parameters:
-function circumference(two, pie, radius){
-	var circum = two * pie * radius;
-	console.log(circum);
-
-	return circum;
+function victimWeight(weight){//parameters
+	var deathBySting = weight / 8.666666667;
+	console.log("It takes " + deathBySting + " bee stings to kill this animal.");
 }
 
-//Calling the function:
-circumference();
+//Arguments
+victimWeight(165); 
