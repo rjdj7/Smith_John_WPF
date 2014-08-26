@@ -1,8 +1,13 @@
-//For Loops
+//Break statement
 
-//Setup the index (var i = 10)
-//Checking the condition (i > 0)
-//Decrement (or increment) the index (i--)
-for (var i = 10; i > 0; i--;){
-	console.log(i + " kegs on the wall.");
+for (var i = 1; i < 5000; i++){
+	// do stuff
+	// do stuff
+	if (i == 101){
+		break;
+	}
+	// do stuff
 }
+
+//break jumps out of the loop. Manually tells the program
+//you're done with the loop
