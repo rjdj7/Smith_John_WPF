@@ -1,11 +1,8 @@
-//Do while loops
+//For Loops
 
-var c = 10;
-
-// Do while loops execute the code the first time around before figuring 
-// out if the condition (the while) is true.
-do{
-	console.log(c + " kegs on the wall");
-	c--;
+//Declaring the variable and setting the value (i = 10)
+//then doing the while (i > 0)
+//then decrementing it (i--)
+for (var i = 10; i > 0; i--;){
+	console.log(i + " kegs on the wall.");
 }
-while(c > 0);//
