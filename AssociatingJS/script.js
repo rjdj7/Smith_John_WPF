@@ -1,7 +1,11 @@
-//While Loops
+//Do while loops
 
-var b = 10; //sets up the index
-while (b > 0){ //checks the condition
-	console.log(b + " bottles of beer on the wall.");
-	b--; //increments or decrements the index
+var c = 10;
+
+// Do while loops execute the code the first time around before figuring 
+// out if the condition (the while) is true.
+do{
+	console.log(c + " kegs on the wall");
+	c--;
 }
+while(c > 0);//
