@@ -1,10 +1,7 @@
-//Functions - Parameter and Arguments
+//While Loops
 
-function dogYears(age){//parameters
-	var dogYears = age * 7;
-	console.log("Sparky is " + dogYears + "years old.");
+var b = 10; //sets up the index
+while (b > 0){ //checks the condition
+	console.log(b + " bottles of beer on the wall.");
+	b--; //increments or decrements the index
 }
-
-//Arguments
-dogYears(4); //Making the value of age 4 making the anser 28
-dogYears(5); //Making the value of age 5 making the answer 35
